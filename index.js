@@ -19,9 +19,9 @@ app.listen(port,()=>{
 
 
 
-const uri = `mongodb+srv://${process.env._USER}:${process.env._PASS}@cluster0.xhpmdyt.mongodb.net/?retryWrites=true&w=majority`;
-// console.log(process.env._USER)
-// console.log(process.env._PASS)
+const uri = `mongodb+srv://${process.env.USER}:${process.env.PASS}@cluster0.xhpmdyt.mongodb.net/?retryWrites=true&w=majority`;
+// console.log(process.env.USER)
+// console.log(process.env.PASS)
 // console.log(uri)
 
 // Create a MongoClient with a MongoClientOptions object to set the Stable API version
